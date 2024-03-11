@@ -11,7 +11,7 @@ RUN apt-get update && \
     apt-get clean;
 
 # Copy the compiled WAR file into the webapps directory of Tomcat
-COPY target/your-application.war /usr/local/tomcat/webapps/
+COPY target/demoapp.war /usr/local/tomcat/webapps/
 
 # Expose the default Tomcat port
 EXPOSE 8080
