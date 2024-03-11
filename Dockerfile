@@ -2,7 +2,7 @@
 FROM tomcat:latest
 
 # Set environment variables for Java and Maven
-ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
+ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
 ENV MAVEN_HOME /usr/share/maven
 
 # Install OpenJDK 8

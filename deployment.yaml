@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
       - name: demoapp
-        image: docker-registry.docker-registry.svc.cluster.local:5000/demoapp:latest
+        image: registry.demo.example.com:5000/demoapp:latest
         ports:
         - containerPort: 8080
