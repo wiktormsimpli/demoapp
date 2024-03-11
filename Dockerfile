@@ -1,5 +1,5 @@
 # Use Tomcat as the base image
-FROM tomcat:latest
+FROM tomcat:8.5-jdk8
 
 # Set environment variables for Java and Maven
 ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64
